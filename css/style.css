@@ -8,6 +8,7 @@
   stroke: fuchsia;
   stroke-width: 5;
   fill:teal;
+  transition: 1s;
 }
 
 .rect{
@@ -15,6 +16,11 @@
   stroke: lime;
   stroke-width: 5;
   
+}
+
+svg:hover .rect{
+  fill:blueviolet;
+  stroke: lawngreen;
 }
 
 .rect-large{
