@@ -1,0 +1,32 @@
+.container{
+  max-width: 800px;
+  margin-inline: auto;
+  background-color: blanchedalmond;
+}
+
+.circle{
+  stroke: fuchsia;
+  stroke-width: 5;
+  fill:teal;
+}
+
+.rect{
+  fill: blue;
+  stroke: lime;
+  stroke-width: 5;
+  
+}
+
+.rect-large{
+  fill: olive;
+  stroke: purple;
+  stroke-width: 5;
+
+}
+
+.ellipse{
+  fill:orange;
+  stroke: red;
+  stroke-width: 5;
+
+}
