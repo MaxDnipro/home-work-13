@@ -14,8 +14,7 @@
 .rect{
   fill: blue;
   stroke: lime;
-  stroke-width: 5;
-  
+  stroke-width: 5;  
 }
 
 svg:hover .rect{
@@ -27,12 +26,10 @@ svg:hover .rect{
   fill: olive;
   stroke: purple;
   stroke-width: 5;
-
 }
 
 .ellipse{
   fill:orange;
   stroke: red;
   stroke-width: 5;
-
 }
