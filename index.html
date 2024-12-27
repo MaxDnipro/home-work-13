@@ -13,7 +13,15 @@
 
     <div>
       <svg width="100%" height="120">
-        <circle class="circle" cx="80" cy="60" r="40" />
+        <circle class="circle" cx="80" cy="60" r="40">
+          <animate
+            attributeName="cx"
+            begin="0s"
+            dur="8s"
+            from="0"
+            to="90%"
+            repeatCount="indefinite" />
+      </circle>
       </svg>
     </div>
 
@@ -31,11 +39,11 @@
 
     <div>
       <svg width="250" height="130">
-        <ellipse class="ellipse" width="180" height="90" rx="90" ry="25" cx="130" cy="80" />
+        <ellipse class="ellipse" rx="90" ry="25" cx="130" cy="80" />
       </svg>
     </div>
-  
-  </div>
 
+  </div>  
+ 
 </body>
 </html>
